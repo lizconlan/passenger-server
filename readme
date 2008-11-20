@@ -1,0 +1,9 @@
+These are the files the files that are required to get Phusion Passenger working on Elastic Server:
+
+The Pre-requisites bundle contains everything that is held here in the usr folder. When creating the bundle, these files need to be mapped as per the directory structure used here (the zip files should be set to automatically unpack)
+
+The gem folders are a little different...
+
+* The .gem file (probably not needed, but added for paranoia's sake) needs to go into /var/lib/gems/1.8/cache/
+* The .gemspec file (definitely needed!), needs to go to /var/lib/gems/1.8/specifications/
+* The .zip files need to be unpacked into /var/lib/gems/1.8/gems/
